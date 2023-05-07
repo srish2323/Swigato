@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.hr1{
+    /* border: 3px;
+    border-style: solid;
+    border-color: coral; */
+    border: 2px solid #e10d0d;
+}
+.hr2{
+    border: 2px solid #18c5e4;
+}
+.hr3{
+    border: 2px solid #fdf406;
+}
+.hr4{
+    border: 2px solid #0032fa;
+}
+.hr5{
+    border: 2px solid #f800f8;
+}
+.hr6{
+    border: 2px solid #1df800;
+}
+
+body{
+    background-color:  #f7e7ce;
+}
+
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    /*verticle alignment in middle*/
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+}
+#logo{
+    width: 20%;
+    text-align: center;
+}
+#links{
+    width: 60%;
+}
+#navlinks{
+    display: flex;
+    list-style-type: none;
+    
+}
+#navlinks li{
+    padding: 10px;
+}
+#navlinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 9px;
+}
+#navlinks a:hover{
+    color:#046307;
+    background-color: #ebfeeb;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+#search{
+    width: 20%;
+    color: azure;
+    text-align: center;
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+}
+#searchbox{
+    width: 110px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ebfeeb;
+    padding: 5px;
+}
+#logoimage{
+    margin: 5px;
+    padding: 2px;
+    height: 70px;
+    border-radius: 40px;
+}
+/* Navigation Bar ends here */
+
+/* Welcome Section Starts */
+#welcome{
+    height: 900px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* about us section  */
+#aboutus{
+    height: 400px;
+}
+
+/* clients section  */
+#clients{
+    height: 400px;
+}
+
+/* contact us section  */
+#contactus{
+    height: 400px;
+}
+
+/* social media section  */
+#social{
+    height: 400px;
+}
